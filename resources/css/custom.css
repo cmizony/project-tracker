@@ -1,0 +1,220 @@
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+#wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -80px; /* the bottom margin is the negative value of the footer's height */
+}
+
+#footer-push {
+	height:120px;
+}
+
+#footer {
+	padding-top:10px;
+	height:80px;
+}
+
+#footer ul
+{
+	margin-bottom:0px;
+}
+
+.breadcrumb li
+{
+cursor: pointer;
+}
+
+.dataTables_wrapper
+{
+margin-top:10px;
+}
+
+table.table thead th.no-sort
+{
+background-image:none;
+}
+
+.textarea-full
+{
+width:100%;
+resize:vertical;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+
+.alert
+{
+margin-bottom:10px;
+}
+
+.file-view img
+{
+margin-bottom:3px;
+}
+
+.card-view img
+{
+margin-right:5px;
+margin-bottom:5px;
+}
+
+.card-view hr
+{
+margin:3px;
+}
+
+.google-map
+{
+border: 1px solid #B0B0B0;
+}
+
+.contact-view #google-map-canvas
+{
+width:100%;
+height:222px;
+}
+
+.contact-view .alert
+{
+padding-right:15px;
+margin-bottom:0px;
+}
+
+.well-black 
+{
+background: #1C1C1C;
+}
+
+.well-white
+{
+background-color:#fff;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+
+.chat-view .panel-body
+{
+padding:10px;
+}
+
+.chat-view p
+{
+margin-bottom:0px;
+}
+
+body
+{
+font-family:"PT Sans"; 
+}
+
+#google-map-canvas
+{
+height:40vh;
+}
+
+#tasks-calendar .tooltip-inner {
+width: 140px;
+}
+#tasks-calendar .tooltip.left {
+margin-left: -10px;
+}
+
+.tag-red {
+	background-color: #b94a48;
+}
+.tag-yellow {
+	background-color: #fabe28;
+}
+.tag-orange {
+	background-color: #ff8a00;
+}
+.tag-gray {
+	background-color: #999;
+}
+.tag-green {
+	background-color: #468847
+}
+.tag-blue {
+	background-color: #3a87ad;
+}
+
+.color-tag{
+	cursor:pointer;
+}
+
+.vignette-tasks
+{
+cursor: pointer;
+min-height:10px;
+}
+
+.task-view
+{
+cursor: pointer;
+}
+
+.thread-view
+{
+cursor: pointer;
+}
+
+.alert-gray
+{
+	background-color: #b8b8b8;
+	border-color: #9f9f9f;
+	color :#333;
+}
+
+.read-view > .panel-body
+{
+	padding:0px;
+}
+
+.read-view .panel-primary
+{
+	border-color:#ddd;
+}
+
+.read-view .panel-description
+{
+	margin-top:30px;
+	min-height:125px;
+	margin-bottom:100px;
+}
+
+.read-view .lead
+{
+	margin-bottom:0px;
+}
+
+.fancybox-nav {
+	position: absolute;
+	top: 0;
+	width: 50px;
+	height: 80%;
+	cursor: pointer;
+	text-decoration: none;
+	background: transparent url('../img/fancybox/blank.gif'); /* helps IE */
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	z-index: 8040;
+}
+
+#iterations-box-vignettes .panel-body
+{
+	max-height:250px;
+	overflow: hidden;
+	overflow-y: auto;
+}
+
+ul.vignette-tasks
+{
+	width:100%;
+}
