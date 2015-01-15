@@ -1,6 +1,7 @@
 ## Project Tracker
 
 Project management application written in php using CodeIgniter Framework.
+Official website can be found at http://tracker.cmizony.com (with details to get a demo)
 
 ## Usage
 
@@ -9,7 +10,7 @@ Project management application written in php using CodeIgniter Framework.
 * Run Cli **php index.php cli_db migrate_latest** to create database structure
 * Edit **application/config/custom.php** to set the root account password
 
-Please contact me if you have issues
+For troubleshooting please create a support issue on github
 
 ## Features
 
@@ -23,4 +24,10 @@ Please contact me if you have issues
 * Detailed Log system
 * File management for projects
 * Markdown to link project entities
-* [...]
+
+## TODO
+
+* Easy deployment (Phing & Chef)
+* Upgrade Framework version
+* Add reporting capabilities
+* Create dev API

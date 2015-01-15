@@ -21,7 +21,7 @@
 							<input type="password" class="form-control" name="password">
 						</div>
 						<input type="hidden" name="destination" value="<?=$destination?>">
-						<p><a href="#"><i class="fa fa-question-sign"></i> Forgot password?</a></p>
+						<p><!--<a href="#"><i class="fa fa-question-sign"></i> Forgot password?</a>--></p>
 						<button type="submit" class="btn btn btn-warning">
 							<i class="fa fa-sign-in"></i> Log In
 						</button>
