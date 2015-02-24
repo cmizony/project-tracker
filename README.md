@@ -1,7 +1,11 @@
 ## Project Tracker
 
 Project management application written in php using CodeIgniter Framework.
-Official website can be found at http://tracker.cmizony.com (with details to get a demo)
+Official website can be found at http://tracker.cmizony.com
+
+## Demo
+
+Hosted demo is available at [demo.tracker.cmizony.com](http://demo.tracker.cmizony.com).The database is reset daily
 
 ## Usage
 
