@@ -1,3 +1,5 @@
+[![Project Overview](gallery/projects.png)](gallery/)
+
 ## Project Tracker
 
 Project management application written in php using CodeIgniter Framework.
